@@ -5,6 +5,7 @@ import { ReactLenis } from "@studio-freight/react-lenis";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
+import { FaTwitter, FaGithub } from "react-icons/fa";
 gsap.registerPlugin(ScrollTrigger);
 
 export default function Home() {
@@ -161,9 +162,10 @@ export default function Home() {
                 </p>
               </div>
             </div>
-
-            <div className="website-content" ref={websiteContentRef}>
-              <h1 className="">R A T A N</h1>
+            <div className="website-content flex  items-center justify-center w-full h-full" ref={websiteContentRef}>
+              <h1 className="">R A T A N </h1>
+              <p>Crafting beautiful and functional websites</p>
+              <p>Leveraging cutting-edge technologies to create immersive digital experiences</p>
             </div>
           </section>
         </div>
